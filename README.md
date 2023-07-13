@@ -14,6 +14,8 @@
 <div align="center">
   <img align="center" src="./src/assets/apresentation3.gif" alt= "funcionalidade em execução" />
 </div>
+<br>
+<br>
 <div align="center">
   <img align="center" src="./src/assets/apresentation.gif" alt= "funcionalidade em execução" />
 </div>
