@@ -1,0 +1,25 @@
+<section>
+  <div class="list">
+    <div
+      *ngFor="let item of items"
+      class="item"
+      routerLink="/item/{{item.id}}"
+    >
+      <div class="div-image">
+        <img
+          [src]="item.thumbnail"
+          class="item-image"
+          alt="{{item.title}}"
+        />
+      </div>
+      <div class="data-item">
+        <p class="title">{{ returnWord(item.title) }}</p>
+        <p class="seller">{{ item.seller.nickname }}</p>
+        <div class="price">
+          <p> <span>R$ {{ item.price }}</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

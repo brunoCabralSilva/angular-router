@@ -1,0 +1,25 @@
+<section>
+  <div
+    class="item"
+  >
+    <p class="title">{{ object.title }}</p>
+    <div class="price">
+        <p> <span>R$ {{ object.price }}</span>
+        </p>
+    </div>
+    <div class="div-image">
+      <img
+        *ngFor="let picture of object.pictures"
+        [src]="picture.url"
+        class="item-image"
+        alt="{{object.title}}"
+      />
+    </div>
+    <div class="data-item">
+      <div *ngFor="let attribute of object.attributes">
+        <span class="attribute-name">{{ attribute.name }}:</span>
+        <span>{{ attribute.value_name }}</span>
+      </div>
+    </div>
+  </div>
+</section>

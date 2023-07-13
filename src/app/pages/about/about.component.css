@@ -1,0 +1,17 @@
+div {
+  height: 100%;
+}
+
+h1 {
+  color: black;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  z-index: 50;
+  padding-left: 2rem;
+  position: relative;
+  height: 25vh;
+  font-size: 80px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+}
