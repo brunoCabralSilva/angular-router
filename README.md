@@ -12,5 +12,8 @@
 <h3 align="center">Rota Dinâmica:</h2>
 
 <div align="center">
+  <img align="center" src="./src/assets/apresentation3.gif" alt= "funcionalidade em execução" />
+</div>
+<div align="center">
   <img align="center" src="./src/assets/apresentation.gif" alt= "funcionalidade em execução" />
 </div>
